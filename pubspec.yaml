@@ -1,0 +1,26 @@
+name: ebook_reader
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: false
+  assets:
+    - assets/fonts/nb_international_pro_bold.ttf
+    - assets/fonts/nb_international_pro_medium.ttf
+    - assets/fonts/nb_international_pro_regular.ttf
